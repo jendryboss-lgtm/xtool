@@ -40,12 +40,12 @@ const seedData = () => {
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
-  insertUser.run('admin@fitnesshub.com', adminPassword, 'Sarah', 'Admin', 'admin', '555-0100', 'active', null);
-  insertUser.run('trainer@fitnesshub.com', trainerPassword, 'Emily', 'Johnson', 'trainer', '555-0101', 'active', null);
-  insertUser.run('trainer2@fitnesshub.com', trainerPassword, 'Jessica', 'Williams', 'trainer', '555-0102', 'active', null);
-  insertUser.run('member@fitnesshub.com', memberPassword, 'Amanda', 'Smith', 'member', '555-0103', 'active', 2);
-  insertUser.run('member2@fitnesshub.com', memberPassword, 'Rachel', 'Brown', 'member', '555-0104', 'active', 3);
-  insertUser.run('member3@fitnesshub.com', memberPassword, 'Michelle', 'Davis', 'member', '555-0105', 'active', 1);
+  insertUser.run('admin@daylinfitness.com', adminPassword, 'Sarah', 'Admin', 'admin', '555-0100', 'active', null);
+  insertUser.run('trainer@daylinfitness.com', trainerPassword, 'Emily', 'Johnson', 'trainer', '555-0101', 'active', null);
+  insertUser.run('trainer2@daylinfitness.com', trainerPassword, 'Jessica', 'Williams', 'trainer', '555-0102', 'active', null);
+  insertUser.run('member@daylinfitness.com', memberPassword, 'Amanda', 'Smith', 'member', '555-0103', 'active', 2);
+  insertUser.run('member2@daylinfitness.com', memberPassword, 'Rachel', 'Brown', 'member', '555-0104', 'active', 3);
+  insertUser.run('member3@daylinfitness.com', memberPassword, 'Michelle', 'Davis', 'member', '555-0105', 'active', 1);
 
   // Insert fitness classes
   const classes = [
@@ -223,6 +223,6 @@ db.close();
 
 console.log('Database initialization complete!');
 console.log('Default credentials:');
-console.log('  Admin: admin@fitnesshub.com / admin123');
-console.log('  Trainer: trainer@fitnesshub.com / trainer123');
-console.log('  Member: member@fitnesshub.com / member123');
+console.log('  Admin: admin@daylinfitness.com / admin123');
+console.log('  Trainer: trainer@daylinfitness.com / trainer123');
+console.log('  Member: member@daylinfitness.com / member123');

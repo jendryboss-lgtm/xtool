@@ -1,4 +1,4 @@
-# FitnessHub Admin Panel
+# DAYLIN FITNESS Admin Panel
 
 A comprehensive admin panel for managing a women's fitness website built with pure HTML/CSS/JavaScript and Express.
 
@@ -45,11 +45,11 @@ npx serve -p 3000
 
 ## Default Login Credentials
 
-| Role    | Email                    | Password   |
-|---------|--------------------------|------------|
-| Admin   | admin@fitnesshub.com     | admin123   |
-| Trainer | trainer@fitnesshub.com   | trainer123 |
-| Member  | member@fitnesshub.com    | member123  |
+| Role    | Email                      | Password   |
+|---------|----------------------------|------------|
+| Admin   | admin@daylinfitness.com    | admin123   |
+| Trainer | trainer@daylinfitness.com  | trainer123 |
+| Member  | member@daylinfitness.com   | member123  |
 
 ## API Endpoints
 
