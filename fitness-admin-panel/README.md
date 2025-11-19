@@ -1,6 +1,6 @@
 # FitnessHub Admin Panel
 
-A comprehensive admin panel for managing a women's fitness website built with React and Express.
+A comprehensive admin panel for managing a women's fitness website built with pure HTML/CSS/JavaScript and Express.
 
 ## Features
 
@@ -12,7 +12,7 @@ A comprehensive admin panel for managing a women's fitness website built with Re
 
 ## Tech Stack
 
-- **Frontend**: React 18, React Router, Recharts, Axios
+- **Frontend**: Pure HTML, CSS, and Vanilla JavaScript (no frameworks)
 - **Backend**: Express.js, better-sqlite3
 - **Authentication**: JWT-based auth with role-based access control
 
@@ -29,10 +29,18 @@ npm start        # Start server on port 5000
 
 ### Frontend Setup
 
+Simply serve the frontend folder with any static file server:
+
 ```bash
 cd frontend
-npm install
-npm start        # Start React app on port 3000
+
+# Option 1: Python
+python -m http.server 3000
+
+# Option 2: Node.js
+npx serve -p 3000
+
+# Then open http://localhost:3000
 ```
 
 ## Default Login Credentials
